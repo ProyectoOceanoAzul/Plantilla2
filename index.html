@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Flexbox</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="inicio">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <img src="./imagenes/logocody.svg" alt="logocody" title="logocody">
+                    <h1 class="logo__titulo">93R50N</h1>
+                </div>
+
+
+                <div class="superior__menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+    <section class="contenedor__banner">
+        <div class="contenedor">
+
+            <div class="banner__grupo">
+                <h2>
+                    Hi, I'm Adam,
+                    <br>
+                    Copywriter and Creative Lead
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, culpa iure reprehenderit
+                    cumque, error, corrupti alias delectus incidunt vitae rerum non dolorem consectetur.
+                </p>
+
+                <div class="fila__botones">
+                    <a href="#" class="btn btn--light">
+                        discover more
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- contenedor__about-->
+    <section class="contenedor__about" id="about">
+        <div class="contenedor">
+
+
+            <h4>About</h4>
+            <div class="about__grupo">
+
+                <div class="about__lado1">
+                    <div class="about__texto">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </h3>
+
+                        <hr class="linea negro">
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui laborum rem corporis sed
+                            nostrum
+                            tenetur quae quas quaerat
+                            eos similique! Explicabo, temporibus? Ipsam dolore earum sapiente enim quis cumque totam,
+                            explicabo sint a labore vel,
+                            atque est dicta nisi quod quidem fugiat delectus harum necessitatibus exercitationem
+                            obcaecati
+                            similique. Aut,
+                            exercitationem!
+                        </p>
+
+                        <a href="#inicio">inicio</a>
+                    </div>
+
+                </div>
+
+
+
+                <div class="about__lado2">
+                    <div class="about__imagen">
+                        <img src="./imagenes/about.jpg" alt="about" title="about">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- contenedor__services -->
+    <section class="contenedor__services" id="services">
+        <div class="contenedor">
+
+            <h4>Services</h4>
+            <div class="services__grupo">
+
+                <div class="services__lado1">
+                    <div class="services__iconos">
+                        <img src="./imagenes/code.svg" alt="code" title="code">
+                        <img src="./imagenes/zap.svg" alt="zap" title="zap">
+                        <img src="./imagenes/camera.svg" alt="camera" title="camera">
+                        <img src="./imagenes/setting.svg" alt="setting" title="setting">
+                        <img src="./imagenes/monitor.svg" alt="monitor" title="monitor">
+                        <img src="./imagenes/calendar.svg" alt="calendar" title="calendar">
+                    </div>
+                </div>
+
+
+                <div class="services__lado2">
+                    <div class="services__texto">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur
+                        </h3>
+
+                        <hr class="linea plomo">
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo id cum deserunt asperiores,
+                            tempore suscipit similique facere rerum ratione excepturi ea! Suscipit impedit laborum
+                            veritatis quo sunt doloremque aliquam atque, sit esse sed quia itaque eligendi ipsa cum eius
+                            consequatur ut! Perferendis accusantium quis eum?
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quas dolore, deleniti
+                            voluptate veniam enim corrupti? Atque dicta aliquid et? Iusto sapiente ad ullam et
+                            asperiores quae magnam accusamus impedit dolorem quos. Odit, delectus itaque unde
+                            voluptatem, fugit eum laudantium reprehenderit quidem cum tempora optio, aperiam mollitia.
+                            Fugit consequatur dolorum quos laudantium fuga tempora dicta, tenetur, architecto repellat
+                            repellendus odio distinctio, illum pariatur reprehenderit! Porro perferendis explicabo vel
+                            officiis voluptatum, incidunt vero, dolorem id sequi voluptatem iusto soluta aliquam
+                            adipisci eum aut ab, unde temporibus!
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa sit beatae
+                            accusantium ex excepturi incidunt repellendus atque magni perspiciatis rem, minima veritatis
+                            exercitationem eum delectus quisquam eaque libero dolore. Esse soluta fuga labore saepe
+                            numquam cum facilis pariatur vero, perferendis voluptatem provident qui quam eos, voluptate
+                            dignissimos eius minus dolores magni mollitia harum odit. Consequatur quisquam est illo
+                            repellat?
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit ad sapiente
+                            iusto, illum eligendi distinctio asperiores, cum hic velit temporibus ea facere vitae minima
+                            praesentium earum neque tempora, quibusdam inventore maiores! Culpa perferendis
+                            exercitationem dignissimos temporibus? Illum, consequatur unde, rerum rem laboriosam
+                            explicabo a consequuntur corporis vero eaque id, nihil corrupti nobis fuga saepe. Quia
+                            accusantium quidem sequi quos!
+                        </p>
+
+                        <a href="#inicio">inicio</a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- contenedor__portfolio -->
+    <section class="contenedor__portfolio" id="portfolio">
+        <div class="contenedor">
+
+
+            <h4>Portfolio</h4>
+            <div class="portfolio__grupo">
+
+                <div class="portfolio">
+                    <img src="./imagenes/portfolio-1.jpg" alt="portfolio-1" title="portfolio-1">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem perferendis eum excepturi
+                        ea itaque illum
+                        architecto placeat dolore enim doloremque?
+                    </p>
+                </div>
+
+
+                <div class="portfolio">
+                    <img src="./imagenes/portfolio-2.jpg" alt="portfolio-2" title="portfolio-2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem perferendis eum excepturi
+                        ea itaque illum
+                        architecto placeat dolore enim doloremque?
+                    </p>
+                </div>
+
+
+                <div class="portfolio">
+                    <img src="./imagenes/portfolio-3.jpg" alt="portfolio-3" title="portfolio-3">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem perferendis eum excepturi
+                        ea itaque illum
+                        architecto placeat dolore enim doloremque?
+                        <a href="#inicio" style="text-align: center;">inicio</a>
+                    </p>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footerautor">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Derechos Reservados, Diseñado por
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Cada aporte, por más pequeño que sea, puede marcar la diferencia en la vida de una persona.
+                    Donación:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
